@@ -18,7 +18,7 @@ Add the "layout" class to your theme's container, "layout-sidebar" to the sideba
 
 Make sure your code follows this structure in order for it to work:
 
-<div class="layout">
+ &lt; div class="layout" &gt;
 
 <div class="layout-sidebar">
 <!-- sidebar content goes here -->
