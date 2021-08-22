@@ -18,12 +18,12 @@ Add the "layout" class to your theme's container, "layout-sidebar" to the sideba
 
 Make sure your code follows this structure in order for it to work:
 
- &lt; div class="layout" &gt;
+ &lt;div class="layout"&gt;
 
-<div class="layout-sidebar">
-<!-- sidebar content goes here -->
-</div>
+&ltdiv class="layout-sidebar"&gt
+&lt!-- sidebar content goes here --&gt
+&lt/div&gt
 
-<div class="layout-section">
-  <!-- posts go here -->
-</div>
+&ltdiv class="layout-section"&gt
+  &lt!-- posts go here --&gt
+  &lt/div&gt
