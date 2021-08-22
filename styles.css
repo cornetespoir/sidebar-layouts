@@ -1,0 +1,53 @@
+  :root {
+                --layout-max-container-width: 1230px;
+                --layout-container-margins:40px auto; /* keep auto if you want the container to be centered) */
+                --layout-margins: 40px;
+                --layout-sidebar-ratio:35%;
+                /* these are optional if you want your elements to have a maximum width. Set to 100% if you don't want to use this.  */
+                --layout-max-sidebar-width: 100%;
+                --layout-max-section-width:100%;
+            }
+            .layout {
+                display:flex;
+                flex-wrap:wrap;
+                width:90%;
+                max-width:var(--layout-max-container-width);
+                margin:var(--layout-container-margins);
+                justify-content:flex-start;
+            }
+            
+                        
+            .layout .layout-sidebar {
+                margin-right:var(--layout-margins);
+                max-width:var(--layout-max-sidebar-width);
+                width:calc(var(--layout-sidebar-ratio) - var(--layout-margins));
+            }
+            .layout .layout-section {
+                width:calc(100% - var(--layout-sidebar-ratio));
+                max-width:var(--layout-max-section-width);
+            }
+            
+            .layout-reverse {
+                flex-direction:row-reverse;
+            }
+            
+            .layout-reverse .layout-sidebar {
+                margin-right:0px;
+            }
+            
+            .layout-reverse .layout-section {
+                margin-right:var(--layout-margins);
+            }
+            
+            
+            @media only screen and (max-width: 1024px) {
+            .layout-section, .layout-sidebar {
+                margin:var(--layout-margins) 0px!important;
+                max-width:100%!important;
+                width:100%!important;
+            }
+            
+            .layout-reverse {
+                flex-direction:column-reverse;
+            }
+}
