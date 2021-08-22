@@ -20,10 +20,10 @@ Make sure your code follows this structure in order for it to work:
 
  &lt;div class="layout"&gt;
 
-&ltdiv class="layout-sidebar"&gt
-&lt!-- sidebar content goes here --&gt
-&lt/div&gt
+&lt;div class="layout-sidebar"&gt;
+&lt;!-- sidebar content goes here --&gt;
+&lt;/div&gt;
 
-&ltdiv class="layout-section"&gt
-  &lt!-- posts go here --&gt
-  &lt/div&gt
+&lt;div class="layout-section"&gt
+  &lt;!-- posts go here --&gt;
+  &lt;/div&gt;
