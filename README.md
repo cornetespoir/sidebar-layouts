@@ -21,9 +21,15 @@ Make sure your code follows this structure in order for it to work:
  &lt;div class="layout"&gt;
 
 &lt;div class="layout-sidebar"&gt;
+<br>
 &lt;!-- sidebar content goes here --&gt;
+<br>
 &lt;/div&gt;
 
 &lt;div class="layout-section"&gt
+<br>
   &lt;!-- posts go here --&gt;
+  <br>
+  &lt;/div&gt;
+  <br>
   &lt;/div&gt;
