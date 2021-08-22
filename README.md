@@ -26,10 +26,12 @@ Make sure your code follows this structure in order for it to work:
 <br>
 &lt;/div&gt;
 
-&lt;div class="layout-section"&gt
+&lt;div class="layout-section"&gt;
 <br>
   &lt;!-- posts go here --&gt;
   <br>
   &lt;/div&gt;
   <br>
   &lt;/div&gt;
+  
+  If you want to customize this further and are comfortable with  your CSS knowledge, you can use the styles.css file.
