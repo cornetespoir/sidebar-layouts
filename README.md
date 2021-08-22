@@ -4,7 +4,7 @@ Easy and customizable layouts for themes.
 How to install:
 
 Step 1:
-Copy the code in style.css
+Copy the code in styles.css
 
 Step 2: 
 Paste it in your theme before </style>
