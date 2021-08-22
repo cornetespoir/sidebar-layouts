@@ -1,12 +1,17 @@
-  :root {
-                --layout-max-container-width: 1230px;
+/* use this section to customize your layout */ 
+
+          :root {
+             
                 --layout-container-margins:40px auto; /* keep auto if you want the container to be centered) */
                 --layout-margins: 40px;
                 --layout-sidebar-ratio:35%;
                 /* these are optional if you want your elements to have a maximum width. Set to 100% if you don't want to use this.  */
                 --layout-max-sidebar-width: 100%;
                 --layout-max-section-width:100%;
+                --layout-max-container-width: 1230px;
             }
+
+/* end customization */
             .layout {
                 display:flex;
                 flex-wrap:wrap;
