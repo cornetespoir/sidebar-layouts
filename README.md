@@ -6,7 +6,7 @@ How to install:
 Step 1:
 Copy this and paste it after <head> in your theme's code
 
- <link rel="stylesheet" href="https://static.tumblr.com/svdghan/1EVqy89rf/sidebar-layout.css" />
+ &lt;link rel="stylesheet" href="https://static.tumblr.com/svdghan/1EVqy89rf/sidebar-layout.css" /&gt;
 
 Step 2: 
 Copy the css in sidebar-options.css: https://github.com/cornetespoir/sidebar-layouts/blob/main/sidebar-options.css
